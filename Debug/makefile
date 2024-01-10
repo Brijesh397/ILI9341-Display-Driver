@@ -60,8 +60,8 @@ all: main-build
 main-build: ILI9341\ Display\ Driver.elf secondary-outputs
 
 # Tool invocations
-ILI9341\ Display\ Driver.elf ILI9341\ Display\ Driver.map: $(OBJS) $(USER_OBJS) E:\Drivers\ &\ Projects\Projects\ILI9341\ Display\ Driver\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ILI9341 Display Driver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\Drivers & Projects\Projects\ILI9341 Display Driver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ILI9341 Display Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+ILI9341\ Display\ Driver.elf ILI9341\ Display\ Driver.map: $(OBJS) $(USER_OBJS) E:\Final\ Projects\ILI9341\ Display\ Driver\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "ILI9341 Display Driver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\Final Projects\ILI9341 Display Driver\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ILI9341 Display Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

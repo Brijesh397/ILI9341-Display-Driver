@@ -422,7 +422,7 @@ void lcdWriteChar(SPI_Handle_t *spiHandleStructure,char character,Font_Handler_t
 					 * as if you are over writing already written space then the previously written
 					 * character will not be superimposed over the new one
 					 */
-					lcdWritePixel(spiHandleStructure, BG, x1, y1);
+					lcdWritePixel(spiHandleStructure, BG, x, y1);
 					y1++;	//Incrementing the Y pos
 				}
 			}

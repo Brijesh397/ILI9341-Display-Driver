@@ -15,8 +15,6 @@
 #include "systick.h"
 #include "gpio.h"
 #include <stdint.h>
-#include "btnDebounce.h"
-#include "keyPad.h"
 #include "SPI.h"
 #include "ILI9341.h"
 #include "FONT.h"
