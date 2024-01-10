@@ -13,3 +13,5 @@ To identify the position(Start and End) of each character inside the Font Array 
 The Font Handler structure uses ASCII values to position each character.
 
 The lcdWriteChar Function iterrates over each bit of the character inside the font array and if the Bit is 1 then fills the pixel with desired color. Thus, displaying the whole character.
+
+I have used the Hardware Abstraction Layer created by me to implement the GPIO, SPI and other preipherals.
