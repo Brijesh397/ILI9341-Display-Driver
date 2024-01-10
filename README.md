@@ -15,3 +15,7 @@ The Font Handler structure uses ASCII values to position each character.
 The lcdWriteChar Function iterrates over each bit of the character inside the font array and if the Bit is 1 then fills the pixel with desired color. Thus, displaying the whole character.
 
 I have used the Hardware Abstraction Layer created by me to implement the GPIO, SPI and other preipherals.
+
+This is an example image of the LCD
+
+![IMG_20240110_152218361~2](https://github.com/Brijesh397/STM32-ILI9341-Display-Driver/assets/63951205/3e318179-69ed-4fc1-aaac-6c031d7d69bb)
