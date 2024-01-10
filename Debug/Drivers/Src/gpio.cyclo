@@ -1,0 +1,6 @@
+../Drivers/Src/gpio.c:23:6:gpioInit	25
+../Drivers/Src/gpio.c:172:15:gpioReadPin	2
+../Drivers/Src/gpio.c:199:6:gpioWritePin	2
+../Drivers/Src/gpio.c:222:6:gpioTogglePin	2
+../Drivers/Src/gpio.c:248:6:GPIO_EXTI_IRQHandler	2
+../Drivers/Src/gpio.c:269:6:GPIOCLockControl	11

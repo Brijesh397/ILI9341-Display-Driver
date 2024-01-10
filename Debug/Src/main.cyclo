@@ -1,0 +1,3 @@
+../Src/main.c:20:5:main	1
+../Src/main.c:55:6:systemClockConfig	3
+../Src/main.c:92:6:lcdConfig	1

@@ -1,0 +1,10 @@
+../Drivers/Src/ILI9341.c:23:6:lcdInit	1
+../Drivers/Src/ILI9341.c:181:6:lcdWriteCmd	1
+../Drivers/Src/ILI9341.c:205:6:lcdWriteData	1
+../Drivers/Src/ILI9341.c:225:6:lcdReset	1
+../Drivers/Src/ILI9341.c:246:6:lcdSetWriteArea	1
+../Drivers/Src/ILI9341.c:278:6:lcdWriteArea	1
+../Drivers/Src/ILI9341.c:303:6:lcdFill	3
+../Drivers/Src/ILI9341.c:338:6:lcdWritePixel	1
+../Drivers/Src/ILI9341.c:370:6:lcdWriteChar	7
+../Drivers/Src/ILI9341.c:444:6:lcdWriteString	10

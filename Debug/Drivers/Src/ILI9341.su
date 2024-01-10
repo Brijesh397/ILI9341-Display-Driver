@@ -1,0 +1,10 @@
+../Drivers/Src/ILI9341.c:23:6:lcdInit	32	static
+../Drivers/Src/ILI9341.c:181:6:lcdWriteCmd	24	static
+../Drivers/Src/ILI9341.c:205:6:lcdWriteData	24	static
+../Drivers/Src/ILI9341.c:225:6:lcdReset	8	static
+../Drivers/Src/ILI9341.c:246:6:lcdSetWriteArea	32	static
+../Drivers/Src/ILI9341.c:278:6:lcdWriteArea	32	static
+../Drivers/Src/ILI9341.c:303:6:lcdFill	19240	static
+../Drivers/Src/ILI9341.c:338:6:lcdWritePixel	40	static
+../Drivers/Src/ILI9341.c:370:6:lcdWriteChar	56	static
+../Drivers/Src/ILI9341.c:444:6:lcdWriteString	64	static

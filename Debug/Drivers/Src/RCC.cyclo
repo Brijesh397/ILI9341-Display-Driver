@@ -1,0 +1,3 @@
+../Drivers/Src/RCC.c:22:10:RCC_OscillatorConfig	26
+../Drivers/Src/RCC.c:170:10:RCC_ClockConfig	18
+../Drivers/Src/RCC.c:283:10:RCC_GetSysClockFreq	5
